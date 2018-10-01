@@ -1,0 +1,11 @@
+
+@media (min-width: 576px){
+.jumbotron {
+padding:2rem 1rem;
+}
+}
+/* Nav bar styles */
+.bg-dark {
+    background-color: #0e8816!important;
+}
+
