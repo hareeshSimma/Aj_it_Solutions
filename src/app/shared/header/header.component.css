@@ -6,6 +6,18 @@ padding:2rem 1rem;
 }
 /* Nav bar styles */
 .bg-dark {
-    background-color: #0e8816!important;
+    background-color: #1a93d0!important;
 }
 
+@media (min-width: 768px){
+.navbar-expand-md .navbar-nav .nav-link {
+    padding-right: 2rem;
+    padding-left: 2rem;
+    font-size: 16px;
+    color: white;
+}
+}
+.navbar-dark .navbar-nav .active>.nav-link, .navbar-dark .navbar-nav .nav-link.active, .navbar-dark .navbar-nav .nav-link.show, .navbar-dark .navbar-nav .show>.nav-link {
+    /* color: red; */
+    border-bottom: 2px solid white;
+}

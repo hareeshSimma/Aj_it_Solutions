@@ -18,32 +18,46 @@
             <li class="nav-item">
               <a class="nav-link" routerLink="/ebooks"  routerLinkActive="active" [routerLinkActiveOptions]="{ exact: true }">PDF/E-Books</a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link"  routerLink="/usecases"  routerLinkActive="active" [routerLinkActiveOptions]="{ exact: true }">Use Cases</a>
-            </li>
             <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle"  routerLink="/olineclasses"  routerLinkActive="active" [routerLinkActiveOptions]="{ exact: true }" id="navbardrop" data-toggle="dropdown">
-                Online Classes
-                </a>
-                <div class="dropdown-menu">
-                  <a class="dropdown-item" href="#">Link 1</a>
-                  <a class="dropdown-item" href="#">Link 2</a>
-                  <a class="dropdown-item" href="#">Link 3</a>
-                </div>
-              </li>
-            <li class="nav-item">
-              <a class="nav-link"  routerLink="/offlineclasses"  routerLinkActive="active" [routerLinkActiveOptions]="{ exact: true }">Offline Classes</a>
-            </li>
-            <!-- Dropdown -->
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle"  routerLink="/services"  routerLinkActive="active" [routerLinkActiveOptions]="{ exact: true }" id="navbardrop" data-toggle="dropdown">
-               Services
+              <a class="nav-link dropdown-toggle"  routerLink="/usecases"  routerLinkActive="active" [routerLinkActiveOptions]="{ exact: true }" id="navbardrop" data-toggle="dropdown">
+              Usecases
               </a>
               <div class="dropdown-menu">
-                <a class="dropdown-item" href="#">Link 1</a>
-                <a class="dropdown-item" href="#">Link 2</a>
-                <a class="dropdown-item" href="#">Link 3</a>
+                <a class="dropdown-item" href="#">Free</a>
+                <a class="dropdown-item" href="#">Premium</a>
               </div>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle"  routerLink="/olinetrainings"  routerLinkActive="active" [routerLinkActiveOptions]="{ exact: true }" id="navbardrop" data-toggle="dropdown">
+                Online Trainings
+                </a>
+                <div class="dropdown-menu">
+                  <a class="dropdown-item" href="#">Linux Admin</a>
+                  <a class="dropdown-item" href="#">Real Time Admin</a>
+                  <a class="dropdown-item" href="#">DevOps</a>
+                  <a class="dropdown-item" href="#">AWS</a>
+                  <a class="dropdown-item" href="#">Java</a>
+
+                </div>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle"  routerLink="/offlinetrainings"  routerLinkActive="active" [routerLinkActiveOptions]="{ exact: true }" id="navbardrop" data-toggle="dropdown">
+                Classroom Trainings
+                </a>
+                <div class="dropdown-menu">
+                  <a class="dropdown-item" href="#">Linux Admin</a>
+                  <a class="dropdown-item" href="#">Real Time Admin</a>
+                  <a class="dropdown-item" href="#">DevOps</a>
+                  <a class="dropdown-item" href="#">AWS</a>
+                  <a class="dropdown-item" href="#">Java</a>
+                </div>
+              </li>
+          
+            <li class="nav-item">
+                <a class="nav-link"  routerLink="/services"  routerLinkActive="active" [routerLinkActiveOptions]="{ exact: true }">Services</a>
+              </li>
+            <li class="nav-item">
+              <a class="nav-link"  routerLink="/videos"  routerLinkActive="active" [routerLinkActiveOptions]="{ exact: true }">Videos</a>
             </li>
           </ul>
     </div>  
